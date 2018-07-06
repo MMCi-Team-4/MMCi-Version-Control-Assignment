@@ -10,6 +10,9 @@ Conset2Share currently has multiple versions on GitHub. Each version has a trail
 
 One of the advantages of using GitHub by Consent2Share, for developers currently working on EHR, to improve HIE, can view the code available for this project. There is a sample of the CCD provided. Other developers could view this, and other aspects of this project to fork this information to initiate their new project, where a patient consents to share certain aspects of their health information to exchange with other providers in another state. And this aspect of the Consent2Share project could be utilized by other EHR systems.
 
+Where does it fall short in leveraging version control tools?
+While Consent2Share utilizes a fairly straight forward implementation of GitHub’s version control, there are a few tools that it could better leverage to take full advantage of GitHub’s functionality. One of those is the transparency of comments when making changes to various versions of a document. For example, the User Guides are assumingly updated between each version (i.e. C2S Master Guide 3.4.0 is different than C2S Master Guide 3.3.0) however there are no details of what information was updated. Allowing users visibility into what update requests were made, and accepted, between various would provide more transparency to the overall version control process. 
+
 What would you do differently?
 Within the repository, for many of the directories and subdirectories, there is not consistent verbiage to denote what exactly was done when updates were performed with the coding. For example, within the “Samples” subdirectory, the verbiage clearly states that the file names were changed for sample clinical documents, however inside the “ehr-edition” subdirectory the update comment is “fix deployment issues”. While Git does allow the viewing of a prior version of files that were changed, it would be beneficial to have a standard naming convention for update comments.
 
